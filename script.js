@@ -7,7 +7,7 @@ function onPalindrome() {
     const inputString = document.getElementById("string");
    const string = inputString.value.toLowerCase();
 
-  const reverseString = string.split(" ").reverse().join(" ");
+  const reverseString = string.split("").reverse().join("");
 
    let result;
 
